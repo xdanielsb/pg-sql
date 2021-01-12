@@ -1,3 +1,4 @@
+/* Declare some variables */
 do $$ 
 declare
    counter    integer := 1;
