@@ -16,3 +16,11 @@ create table estudiante(
   email varchar(100),
 );
 ```
+
+
+Some useful commands
+
+```sql
+ db=# \x  /* expanded display */
+ db=# \df /* list all user-defined functions */
+```
