@@ -14,6 +14,7 @@ begin
 		exit when counter = n ; 
 		counter := counter + 1 ; 
     -- i = j ; j = i + j
+    -- you can use this to swap :nice:
 		select j, i + j into i,	j ;
 	end loop; 
 	fib := i;
