@@ -1,3 +1,8 @@
+/*
+ @author: xdanielsb
+ this function check if a certain id is not allowed to
+ carried out an activity.
+*/
 create or replace function new_exception(id int)
 returns void
 language plpgsql
@@ -38,5 +43,6 @@ end;
 $$
 
 /*
-  select new_exception(1);
+  select new_exception(1); 
+  select new_exception(2);
 */

@@ -13,7 +13,7 @@ begin
   -- catch exception
   exception
     when no_data_found then
-      raise exception 'there is no students with id=%', std_id;
+      raise exception 'there are no students with id=%', std_id;
 end;
 $$;
 

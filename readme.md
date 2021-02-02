@@ -3,6 +3,8 @@ some test vor pl/pgsql
 this test assume that you have a table called
 ***estudiante*** with the following description
 
+
+#### For the test in postgreSQL
 ```sql
 create table estudiante(
   id_estudiante serial primary key,
@@ -18,7 +20,7 @@ create table estudiante(
 ```
 
 
-Some useful commands
+#### Some useful commands
 
 ```sql
  db=# \x  /* expanded display */
