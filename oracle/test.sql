@@ -9,26 +9,26 @@ insert into deparment(deptno, name, location) values (2, 'dep 2', 'japan');
 insert into deparment(deptno, name, location) values (3, 'dep 1', 'italy');
 select * from deparment;
 
-/* Procedure  with exception*/
+/* procedure  with exception*/
 
 create or replace procedure factorial(ni in number) 
 is 
 begin 
    if ni < 0  
    then 
-      raise VALUE_ERROR; 
+      raise value_error; 
    end if; 
 end;
 
 /* this will call an exception */
-BEGIN
+begin
    factorial (ni => -1); 
-END;
+end;
 
 /* this won't call an exception */
-BEGIN
+begin
    factorial (ni => 1); 
-END;
+end;
 
 
 /* end procedure and call */
